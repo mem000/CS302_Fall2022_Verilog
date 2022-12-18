@@ -33,3 +33,5 @@
 .\src\t_Quiz3_A.v
 .\src\Comparator1.v
 .\src\Comparator2.v
+.\src\Four_bits_incrementer.v
+.\src\half_adder.v

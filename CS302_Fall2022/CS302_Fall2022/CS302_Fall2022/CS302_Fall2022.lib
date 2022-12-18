@@ -1,4 +1,4 @@
-timestamp=1671406341967
+timestamp=1671407048535
 
 [~A]
 ./../compile/Circuit_A.v=0*6466*6946
@@ -8,6 +8,7 @@ timestamp=1671406341967
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Comparator1.v=0*24848*25354
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Comparator2.v=0*26593*27035
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Decoder_3X8.v=0*7056*7562
+F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Four_bits_incrementer.v=0*10361*10893
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Full_Adder_2.v=0*36022*36545
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Half_Adder_2.v=0*27198*27641
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Prob_3_39.v=0*87181*87621
@@ -20,6 +21,7 @@ F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Simple_Circ
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Simple_Circuit.v_Simple_Circuit_2.v_Circuit_Boolean_CA.v_UDP_02467.v_t_Simple_Circuit.v_t_Simple_Circuit_2.v_t_Circuit_with_UDP_02467.v_Prob_3_34.v_t_Prob_3_34.v_Fig_3_20a_gates.v_t_Fig_3_20a_gates.v_Fig_3_20a_CA.v_t_Fig_3_20a_CA.v_Prob_3_39.v_t_Prob_3_39.v_Circuit_A.v_t_Circuit_A.v=0*124618*127347
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Simple_Circuit.v_Simple_Circuit_2.v_Circuit_Boolean_CA.v_UDP_02467.v_t_Simple_Circuit.v_t_Simple_Circuit_2.v_t_Circuit_with_UDP_02467.v_Prob_3_34.v_t_Prob_3_34.v_Fig_3_20a_gates.v_t_Fig_3_20a_gates.v_Fig_3_20a_CA.v_t_Fig_3_20a_CA.v_Prob_3_39.v_t_Prob_3_39.v_Circuit_A.v_t_Circuit_A.v_Circuit_A_2.v=0*144375*147230
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Simple_Circuit.v_Simple_Circuit_2.v_Circuit_Boolean_CA.v_UDP_02467.v_t_Simple_Circuit.v_t_Simple_Circuit_2.v_t_Circuit_with_UDP_02467.v_Prob_3_34.v_t_Prob_3_34.v_Fig_3_20a_gates.v_t_Fig_3_20a_gates.v_Fig_3_20a_CA.v_t_Fig_3_20a_CA.v_Prob_3_39.v_t_Prob_3_39.v_Circuit_A.v_t_Circuit_A.v_Circuit_A_2.v_Use_Circuit_A.v=0*54223*57238
+F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/half_adder.v=0*8616*9057
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Circuit_A.v=0*139006*139624
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Decoder_3X8.v=0*16084*16704
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Full_Adder.v=0*14226*14893
@@ -28,8 +30,8 @@ F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Prob_3_39
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Quiz1_A.v=0*30630*31262
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Quiz1_B.v=0*26632*27248
 F:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Quiz3_A.v=0*21298*21898
-LastVerilogToplevel=Comparator2
-ModifyID=119
+LastVerilogToplevel=Four_bits_incrementer
+ModifyID=123
 Version=74
 f:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Fig_3_20a_gates.v=0*33959*34469
 f:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/Prob_3_34.v=0*32228*32860
@@ -44,19 +46,19 @@ f:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Simple_Ci
 f:/Verilog_Projects/ActHDL_Designs/CS302_Fall2022/CS302_Fall2022/src/t_Simple_Circuit_2.v=0*5652*6181
 
 [~MFT]
-0=4|0CS302_Fall2022.mgf|27035|5805
-1=3|1CS302_Fall2022.mgf|70774|15692
+0=5|0CS302_Fall2022.mgf|10893|0
+1=4|1CS302_Fall2022.mgf|59801|2825
 2=0|2CS302_Fall2022.mgf|2172|0
-3=6|3CS302_Fall2022.mgf|43914|9910
+3=8|3CS302_Fall2022.mgf|35630|757
 
 [$root]
-A/$root=22|||1*70224
-BinW64/$root=3*43250
-SLP=3*43365
-Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921603436571c7f667d8079a5505fb41611c
+A/$root=22|||1*59219
+BinW64/$root=3*35316
+SLP=3*35431
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921639f9816b9c47db09cd93cfdf588fa798
 
 [Circuit_A]
-A/Circuit_A=24|../src/Circuit_A.bde|10000|1*518
+A/Circuit_A=24|../src/Circuit_A.bde|10000|1*582
 BinW64/Circuit_A=3*183
 NSymbols/circuit_a=NSymbols/Circuit_A 40|0|2*0
 R=../src/Circuit_A.bde|0
@@ -64,286 +66,302 @@ SLP=3*950
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|3805dfcb5568656c8a743842142cbbaa7ed1962cd8a463e0c3cff0b107a8bcd6d4af05690f6f10bbc88848be3460aaa7
 
 [Circuit_A_2]
-A/Circuit_A_2=22|../src/Circuit_A_2.v|11|1*2386
+A/Circuit_A_2=22|../src/Circuit_A_2.v|11|1*2450
 BinW64/Circuit_A_2=3*1268
 R=../src/Circuit_A_2.v|11
 SLP=3*1389
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7000196e8e23315ba205da6c9452c477f23b80013f1be9a67a55c403086ed28125c7cabc0b43bdad7a6b749feff81ab7
 
 [Circuit_Boolean_CA]
-A/Circuit_Boolean_CA=22|../src/Circuit_Boolean_CA.v|3|1*4382
+A/Circuit_Boolean_CA=22|../src/Circuit_Boolean_CA.v|3|1*4446
 BinW64/Circuit_Boolean_CA=3*1511
 R=../src/Circuit_Boolean_CA.v|3
 SLP=3*2086
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a6098d6fbe4a86ebaa279535696be72389600e1432b1291c704693ccde004f53824bd72b23654f168b005c51c896f98f
 
 [Circuit_with_UDP_02467]
-A/Circuit_with_UDP_02467=22|../src/UDP_02467.v|23|1*5615
+A/Circuit_with_UDP_02467=22|../src/UDP_02467.v|23|1*5679
 BinW64/Circuit_with_UDP_02467=3*2338
 R=../src/UDP_02467.v|23
 SLP=3*2470
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f0fe4cd4888046afeadb7065e7ba200d6f36fb9219d6d33c11aec7e57f18b826bad57a862dcb18981851a5420c546fb0
 
 [Comparator1]
-A/Comparator1=22|../src/Comparator1.v|1|1*68585
-BinW64/Comparator1=3*42880
+A/Comparator1=22|../src/Comparator1.v|1|1*6908
+BinW64/Comparator1=3*2618
 R=../src/Comparator1.v|1
-SLP=3*43001
+SLP=3*2739
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0a2071caa28747c71fb0cffd9c20b80a61457c9168a4a1644481bf44d74e966ffe9069225fa6763a5a4409040c78be1e
 
 [Comparator2]
-A/Comparator2=22|../src/Comparator2.v|1|1*70774
-BinW64/Comparator2=3*43433
+A/Comparator2=22|../src/Comparator2.v|1|1*8547
+BinW64/Comparator2=3*2988
 R=../src/Comparator2.v|1
-SLP=3*43914
+SLP=3*3469
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|3fc6c077e9314ceb0842b027a193f17f0cbda363e17d3a648d2b50bd50e5a56afe1c38afe5ca287a72bf98a699855754
 
 [Decoder_3X8]
-A/Decoder_3X8=22|../src/Decoder_3X8.v|1|1*48188
-BinW64/Decoder_3X8=3*28353
+A/Decoder_3X8=22|../src/Decoder_3X8.v|1|1*9462
+BinW64/Decoder_3X8=3*3656
 R=../src/Decoder_3X8.v|1
-SLP=3*29076
+SLP=3*4379
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6a3365219d2f1317824199f652609515492112b89f0872f9ccf13b0e70634eca095c7bdb4ac90540b194dfba1b7203b2
 
 [Fig_3_20a_CA]
-A/Fig_3_20a_CA=22|../src/Fig_3_20a_CA.v|1|1*6844
-BinW64/Fig_3_20a_CA=3*2618
+A/Fig_3_20a_CA=22|../src/Fig_3_20a_CA.v|1|1*11080
+BinW64/Fig_3_20a_CA=3*4850
 R=../src/Fig_3_20a_CA.v|1
-SLP=3*3429
+SLP=3*5661
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|dfe9df8cace8cd2297b8efd0f67c76709aa1bc14b1928d32fb1a141862a833cddea3140011440139aef59a8d49470cfe
 
 [Fig_3_20a_gates]
-A/Fig_3_20a_gates=22|../src/Fig_3_20a_gates.v|1|1*8753
-BinW64/Fig_3_20a_gates=3*3753
+A/Fig_3_20a_gates=22|../src/Fig_3_20a_gates.v|1|1*12989
+BinW64/Fig_3_20a_gates=3*5985
 R=../src/Fig_3_20a_gates.v|1
-SLP=3*3878
+SLP=3*6110
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|65b0c6e6dd71862e76bd3103872f2b6acc97913f564dc6f4fadd464429f0ff7de9439691799d3d7e2aacb4c3d5e07482
 
+[Four_bits_incrementer]
+A/Four_bits_incrementer=22|../src/Four_bits_incrementer.v|1|1*59801
+BinW64/Four_bits_incrementer=3*35499
+R=../src/Four_bits_incrementer.v|1
+SLP=3*35630
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8406e441c6690626cc374209f9369a492a0243db29a34665663c58937a2a384f18874fb44be9b033ba568af641f16520
+
 [Full_Adder]
-A/Full_Adder=24|../src/Full_Adder.bde|10000|1*10611
-BinW64/Full_Adder=3*4008
+A/Full_Adder=24|../src/Full_Adder.bde|10000|1*16508
+BinW64/Full_Adder=3*6631
 R=../src/Full_Adder.bde|0
-SLP=3*4337
+SLP=3*6960
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|fa69c5930488640f559f7e13be5c9d3b268a21810912fca3e06878041bd0da2d38697f5083547e321902f3ab96c1f3e4
 
 [Full_Adder_2]
-A/Full_Adder_2=22|../src/Full_Adder_2.v|13|1*12049
-BinW64/Full_Adder_2=3*4508
+A/Full_Adder_2=22|../src/Full_Adder_2.v|13|1*17946
+BinW64/Full_Adder_2=3*7131
 R=../src/Full_Adder_2.v|13
-SLP=3*4630
+SLP=3*7253
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|3816cdd04bfa2e0a664960777d2c01256234b5633ec598d3d551e640d667dd97f52d4c4f077c23c4b057b737993292b8
 
 [Half_Adder]
-A/Half_Adder=24|../src/Half_Adder.bde|10000|1*13456
-BinW64/Half_Adder=3*4754
+A/Half_Adder=24|../src/Half_Adder.bde|10000|1*19353
+BinW64/Half_Adder=3*7377
 NSymbols/half_adder=NSymbols/Half_Adder 40|0|2*2172
 R=../src/Half_Adder.bde|0
-SLP=3*5118
+SLP=3*7741
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|88b910d2a4f2a72b0b374d36b1f3abcd0ac0ec2c96bf6a907ebcee0db04734750d60723a9643b549cf28cdf8b420102b
 
 [Half_Adder_2]
-A/Half_Adder_2=22|../src/Half_Adder_2.v|2|1*14400
-BinW64/Half_Adder_2=3*5310
+A/Half_Adder_2=22|../src/Half_Adder_2.v|2|1*20297
+BinW64/Half_Adder_2=3*7933
 R=../src/Half_Adder_2.v|2
-SLP=3*5432
+SLP=3*8055
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7e7af3a334ce7d70e71adb8f07c3e754317c63f0d9f128a894db39a582258931281c13fa17a2c653f8f18e13df56b21d
 
 [Prob_3_34]
-A/Prob_3_34=22|../src/Prob_3_34.v|16|1*15437
-BinW64/Prob_3_34=3*5553
+A/Prob_3_34=22|../src/Prob_3_34.v|16|1*21334
+BinW64/Prob_3_34=3*8176
 R=../src/Prob_3_34.v|16
-SLP=3*6425
+SLP=3*9048
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|656d38bbd56ce28be1abb69d17a31c4d6ab1f2d14e13b59e8414b5cb7270e0232264b19b2d66e52d934a021518733219
 
 [Prob_3_39]
-A/Prob_3_39=22|../src/Prob_3_39.v|10|1*17577
-BinW64/Prob_3_39=3*6803
+A/Prob_3_39=22|../src/Prob_3_39.v|10|1*23474
+BinW64/Prob_3_39=3*9426
 R=../src/Prob_3_39.v|10
-SLP=3*6922
+SLP=3*9545
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|997bf925fcc4a884f394b27a2eca2619228690d03a3498077c2a5c522ac82d7853d4992fb63dcfd0b9ce444b6eea1551
 
 [Quiz1_A]
-A/Quiz1_A=22|../src/Quiz1_A.v|13|1*18630
-BinW64/Quiz1_A=3*7037
+A/Quiz1_A=22|../src/Quiz1_A.v|13|1*24527
+BinW64/Quiz1_A=3*9660
 R=../src/Quiz1_A.v|13
-SLP=3*7374
+SLP=3*9997
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a6cd40a33b6ce3bfdbc21a23fa3dcad226527262ddaa47cb266f3a3c4d9b973a245f4b681b871f85b22a6bd1dae36609
 
 [Quiz1_B]
-A/Quiz1_B=22|../src/Quiz1_B.v|12|1*21268
-BinW64/Quiz1_B=3*7566
+A/Quiz1_B=22|../src/Quiz1_B.v|12|1*27165
+BinW64/Quiz1_B=3*10189
 R=../src/Quiz1_B.v|12
-SLP=3*7683
+SLP=3*10306
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|02bca66c94e602625ed6d9d23ef3b33526527262ddaa47cb266f3a3c4d9b973a1ef639a840ebfe8ebac2764e54651a3c
 
 [Quiz3_A]
-A/Quiz3_A=22|../src/Quiz3_A.v|10|1*66859
-BinW64/Quiz3_A=3*42043
+A/Quiz3_A=22|../src/Quiz3_A.v|10|1*29196
+BinW64/Quiz3_A=3*10420
 R=../src/Quiz3_A.v|10
-SLP=3*42465
+SLP=3*10842
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|98f91df1d840d8ddce6d09eecb8ffe1526527262ddaa47cb266f3a3c4d9b973a8a8e0099baded7181bd167c1af8fbdc5
 
 [Simple_Circuit]
-A/Simple_Circuit=22|../src/Simple_Circuit.v|24|1*23299
-BinW64/Simple_Circuit=3*7797
+A/Simple_Circuit=22|../src/Simple_Circuit.v|24|1*30372
+BinW64/Simple_Circuit=3*11074
 R=../src/Simple_Circuit.v|24
-SLP=3*7921
+SLP=3*11198
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4cd1bf2321bccac4e3b4f0312445582ceb6e41a84e6891dcbc3b6a90ae581d78722903466fbc7e7d3d48ce838cd507ff
 
 [Simple_Circuit_2]
-A/Simple_Circuit_2=22|../src/Simple_Circuit_2.v|2|1*24555
-BinW64/Simple_Circuit_2=3*8049
+A/Simple_Circuit_2=22|../src/Simple_Circuit_2.v|2|1*31628
+BinW64/Simple_Circuit_2=3*11326
 R=../src/Simple_Circuit_2.v|2
-SLP=3*8465
+SLP=3*11742
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|4cd1bf2321bccac4e3b4f0312445582c491d1849b309bb45c22b59233fb85cdc6e802a26039c4516ba6f36d17e28cb7d
 
 [UDP_02467]
-A/UDP_02467=22|../src/UDP_02467.v|2|1*25516
-BinW64/UDP_02467=3*8654
+A/UDP_02467=22|../src/UDP_02467.v|2|1*32589
+BinW64/UDP_02467=3*11931
 R=../src/UDP_02467.v|2
-SLP=3*8773
+SLP=3*12050
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|30506e28d85823c211780c21bfbb81217e2aa90fcb0bc8ad5a50ec54194ee28cd786e1857854e8a4eb7483fe193bed80
 
 [Use_Circuit_A]
-A/Use_Circuit_A=24|../src/Use_Circuit_A.bde|10000|1*26474
-BinW64/Use_Circuit_A=3*8849
+A/Use_Circuit_A=24|../src/Use_Circuit_A.bde|10000|1*33547
+BinW64/Use_Circuit_A=3*12126
 R=../src/Use_Circuit_A.bde|11
-SLP=3*9190
+SLP=3*12467
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0d6e0e2df8fa071722551e6addbb25736f2c88fd6a98d4b6cae9134347d48e0991ec00cf253b5f29e53b8034b32e6292
 
+[half_adder]
+A/half_adder=22|../src/half_adder.v|1|1*58272
+BinW64/half_adder=3*34765
+R=../src/half_adder.v|1
+SLP=3*35128
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c212549305737fba88e08f04405d6125ad
+
 [t_Circuit_A]
-A/t_Circuit_A=22|../src/t_Circuit_A.v|4|1*27700
-BinW64/t_Circuit_A=3*9368
+A/t_Circuit_A=22|../src/t_Circuit_A.v|4|1*34773
+BinW64/t_Circuit_A=3*12645
 R=../src/t_Circuit_A.v|4
-SLP=3*10475
+SLP=3*13752
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e5a260a485d8df3dd7851a9a24bfa5288cd1b3032cdf2b543affbab759ee78dd17c101f71eebe83afb2815b065a414cd
 
 [t_Circuit_with_UDP_02467]
-A/t_Circuit_with_UDP_02467=22|../src/t_Circuit_with_UDP_02467.v|4|1*29322
-BinW64/t_Circuit_with_UDP_02467=3*10989
+A/t_Circuit_with_UDP_02467=22|../src/t_Circuit_with_UDP_02467.v|4|1*36395
+BinW64/t_Circuit_with_UDP_02467=3*14266
 R=../src/t_Circuit_with_UDP_02467.v|4
-SLP=3*11688
+SLP=3*14965
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|06547c4e227ded6071d51a7498068370b35c0fa14ffc66a7ab3b71180e57cde4532924dc460548c1418b739990344c7eb10b70df5422935ea45850741ffab682
 
 [t_Decoder_3X8]
-A/t_Decoder_3X8=22|../src/t_Decoder_3X8.v|4|1*59290
-BinW64/t_Decoder_3X8=3*36926
+A/t_Decoder_3X8=22|../src/t_Decoder_3X8.v|4|1*37673
+BinW64/t_Decoder_3X8=3*15394
 R=../src/t_Decoder_3X8.v|4
-SLP=3*37953
+SLP=3*16421
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0766f482f22d2102d4114b239711f4a6a5147750977dd5ef42575826afb8a1053a991e3d7aaa980a4802c2ef47c3896b
 
 [t_Fig_3_20a_CA]
-A/t_Fig_3_20a_CA=22|../src/t_Fig_3_20a_CA.v|4|1*30600
-BinW64/t_Fig_3_20a_CA=3*12117
+A/t_Fig_3_20a_CA=22|../src/t_Fig_3_20a_CA.v|4|1*39263
+BinW64/t_Fig_3_20a_CA=3*16923
 R=../src/t_Fig_3_20a_CA.v|4
-SLP=3*13111
+SLP=3*17917
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b697085ffee1018ebf458d63974d55f69133f8fad1545855bff8af0554798c34aa67dafcbb43bba68e35cd643a380163
 
 [t_Fig_3_20a_gates]
-A/t_Fig_3_20a_gates=22|../src/t_Fig_3_20a_gates.v|4|1*32068
-BinW64/t_Fig_3_20a_gates=3*13597
+A/t_Fig_3_20a_gates=22|../src/t_Fig_3_20a_gates.v|4|1*40731
+BinW64/t_Fig_3_20a_gates=3*18403
 R=../src/t_Fig_3_20a_gates.v|4
-SLP=3*14594
+SLP=3*19400
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e34829355d4012a66128312ec4f717f26662f4e40e7c3533486b90e9f082423b689a9bebcf5c222e314afcbb7af8d5cb
 
 [t_Full_Adder]
-A/t_Full_Adder=22|../src/t_Full_Adder.v|6|1*56712
-BinW64/t_Full_Adder=3*34906
+A/t_Full_Adder=22|../src/t_Full_Adder.v|6|1*42220
+BinW64/t_Full_Adder=3*19892
 R=../src/t_Full_Adder.v|6
-SLP=3*36182
+SLP=3*21168
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|06d18a8aec9543acd257dd5b856f295ea677b6f9c24e669a449a33e4ecbadc7514040475ac60f60625bb3722f27486af
 
 [t_Half_Adder]
-A/t_Half_Adder=22|../src/t_Half_Adder.v|4|1*35719
-BinW64/t_Half_Adder=3*16868
+A/t_Half_Adder=22|../src/t_Half_Adder.v|4|1*44264
+BinW64/t_Half_Adder=3*21729
 R=../src/t_Half_Adder.v|4
-SLP=3*18013
+SLP=3*22874
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|47dd0cbc3316a611944243f409d46ca554042d4be69818c9b387a667a59c870df7572148ee13cd91be0f168d05342866
 
 [t_Prob_3_34]
-A/t_Prob_3_34=22|../src/t_Prob_3_34.v|1|1*37633
-BinW64/t_Prob_3_34=3*18558
+A/t_Prob_3_34=22|../src/t_Prob_3_34.v|1|1*46178
+BinW64/t_Prob_3_34=3*23419
 R=../src/t_Prob_3_34.v|1
-SLP=3*19688
+SLP=3*24549
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|2bcfacb9b98ec67949882d1276c1e53c9fb0eedd2322f0c3d1948d5a1631d1cfc42990a6c6317e7dd1d330df2a221f8d
 
 [t_Prob_3_39]
-A/t_Prob_3_39=22|../src/t_Prob_3_39.v|3|1*39328
-BinW64/t_Prob_3_39=3*20265
+A/t_Prob_3_39=22|../src/t_Prob_3_39.v|3|1*47873
+BinW64/t_Prob_3_39=3*25126
 R=../src/t_Prob_3_39.v|3
-SLP=3*21347
+SLP=3*26208
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ec843ec8d08dd6cd6243693d56caecd960a769a594d69fd6b7deeb27a94c836e15a6d699ec809feaffbafdb156f78466
 
 [t_Quiz1_A]
-A/t_Quiz1_A=22|../src/t_Quiz1_A.v|6|1*40844
-BinW64/t_Quiz1_A=3*21862
+A/t_Quiz1_A=22|../src/t_Quiz1_A.v|6|1*49389
+BinW64/t_Quiz1_A=3*26723
 R=../src/t_Quiz1_A.v|6
-SLP=3*23056
+SLP=3*27917
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b0364a9311579dbee3ea154171702e01f90f5b83f6fe48b2f8b8a4b70318b8bf35906b21235929a8ebff02270932f319
 
 [t_Quiz1_B]
-A/t_Quiz1_B=22|../src/t_Quiz1_B.v|6|1*42990
-BinW64/t_Quiz1_B=3*23576
+A/t_Quiz1_B=22|../src/t_Quiz1_B.v|6|1*51535
+BinW64/t_Quiz1_B=3*28437
 R=../src/t_Quiz1_B.v|6
-SLP=3*24699
+SLP=3*29560
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|db9eb9890ebbf4c6ed22ce4c2ffbb3eb8233bda2fe2f7c2fa90cd063ce7c05b8210adf6af1e839f67c78bf72eb8972ed
 
 [t_Quiz3_A]
-A/t_Quiz3_A=22|../src/t_Quiz3_A.v|4|1*64834
-BinW64/t_Quiz3_A=3*40309
+A/t_Quiz3_A=22|../src/t_Quiz3_A.v|4|1*53143
+BinW64/t_Quiz3_A=3*30064
 R=../src/t_Quiz3_A.v|4
-SLP=3*41372
+SLP=3*31127
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1fd0fe0c7feb36f905d4f9a734af5ff3d0544fd7611b5701572bc30558ced14cc0eba4d1d0ac0ea730faa00e024d75a0
 
 [t_Simple_Circuit]
-A/t_Simple_Circuit=22|../src/t_Simple_Circuit.v|4|1*44598
-BinW64/t_Simple_Circuit=3*25203
+A/t_Simple_Circuit=22|../src/t_Simple_Circuit.v|4|1*54634
+BinW64/t_Simple_Circuit=3*31615
 R=../src/t_Simple_Circuit.v|4
-SLP=3*26542
+SLP=3*32954
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|caf66cd1cdaf4bf8feae90be498338254edfef686d3fbc4172cfea8e8fa6bbde0a3596af993ea52fa6c21873f4d4bbb9
 
 [t_Simple_Circuit_2]
-A/t_Simple_Circuit_2=22|../src/t_Simple_Circuit_2.v|5|1*46551
-BinW64/t_Simple_Circuit_2=3*27121
+A/t_Simple_Circuit_2=22|../src/t_Simple_Circuit_2.v|5|1*56587
+BinW64/t_Simple_Circuit_2=3*33533
 R=../src/t_Simple_Circuit_2.v|5
-SLP=3*27792
+SLP=3*34204
 Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|caf66cd1cdaf4bf8feae90be49833825cd6fd6e3db907292d19df3a84a840528c2cd200be2ec01f05b14169d85a4d2c2
 
 [~U]
-$root=12|0*25949|
-Circuit_A=12|0*390||0x3
-Circuit_A_2=12|0*597|
-Circuit_Boolean_CA=12|0*808||0x10
-Circuit_with_UDP_02467=12|0*1039|
-Comparator1=12|0*24642||0x10
-Comparator2=12|0*26387||0x10
-Decoder_3X8=12|0*6844||0x10
-Fig_3_20a_CA=12|0*1287|
-Fig_3_20a_gates=12|0*1499|
-Full_Adder=12|0*1717||0x10
-Full_Adder_2=12|0*1942||0x10
-Half_Adder=12|0*2177||0x13
-Half_Adder_2=12|0*2380||0x10
-Prob_3_34=12|0*2593|
-Prob_3_39=12|0*2817|
-Quiz1_A=12|0*3025|
-Quiz1_B=12|0*3251|
-Quiz3_A=12|0*22929|
-Simple_Circuit=12|0*3454|
-Simple_Circuit_2=12|0*3671|
-UDP_02467=12|0*3886||0x20
-Use_Circuit_A=12|0*4088||0x10
-t_Circuit_A=12|0*4315||0x10
-t_Circuit_with_UDP_02467=12|0*4487||0x10
-t_Decoder_3X8=12|0*15911||0x10
-t_Fig_3_20a_CA=12|0*4691||0x10
-t_Fig_3_20a_gates=12|0*4866||0x10
-t_Full_Adder=12|0*14047||0x10
-t_Half_Adder=12|0*5224||0x10
-t_Prob_3_34=12|0*5403||0x10
-t_Prob_3_39=12|0*5573||0x10
-t_Quiz1_A=12|0*5743||0x10
-t_Quiz1_B=12|0*5908||0x10
-t_Quiz3_A=12|0*21133||0x10
-t_Simple_Circuit=12|0*6073||0x10
-t_Simple_Circuit_2=12|0*6253||0x10
+$root=12|0*9651|
+Circuit_A=12|0*470||0x3
+Circuit_A_2=12|0*677|
+Circuit_Boolean_CA=12|0*888||0x10
+Circuit_with_UDP_02467=12|0*1119|
+Comparator1=12|0*1367||0x10
+Comparator2=12|0*1573||0x10
+Decoder_3X8=12|0*1779||0x10
+Fig_3_20a_CA=12|0*1991|
+Fig_3_20a_gates=12|0*2203|
+Four_bits_incrementer=12|0*10121||0x10
+Full_Adder=12|0*2661||0x10
+Full_Adder_2=12|0*2886||0x10
+Half_Adder=12|0*3121||0x13
+Half_Adder_2=12|0*3324||0x10
+Prob_3_34=12|0*3537|
+Prob_3_39=12|0*3761|
+Quiz1_A=12|0*3969|
+Quiz1_B=12|0*4195|
+Quiz3_A=12|0*4398|
+Simple_Circuit=12|0*4612|
+Simple_Circuit_2=12|0*4829|
+UDP_02467=12|0*5044||0x20
+Use_Circuit_A=12|0*5246||0x10
+half_adder=12|0*8406|
+t_Circuit_A=12|0*5473||0x10
+t_Circuit_with_UDP_02467=12|0*5645||0x10
+t_Decoder_3X8=12|0*5849||0x10
+t_Fig_3_20a_CA=12|0*6022||0x10
+t_Fig_3_20a_gates=12|0*6197||0x10
+t_Full_Adder=12|0*6378||0x10
+t_Half_Adder=12|0*6557||0x10
+t_Prob_3_34=12|0*6736||0x10
+t_Prob_3_39=12|0*6906||0x10
+t_Quiz1_A=12|0*7076||0x10
+t_Quiz1_B=12|0*7241||0x10
+t_Quiz3_A=12|0*7406||0x10
+t_Simple_Circuit=12|0*7571||0x10
+t_Simple_Circuit_2=12|0*7751||0x10

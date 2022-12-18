@@ -1,0 +1,57 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Module 'Quiz3_A' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'Decoder_3X8' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k12 -work CS302_Fall2022 $dsn/src/Comparator1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Comparator1.
+# $root top modules: Circuit_Boolean_CA t_Simple_Circuit t_Simple_Circuit_2 t_Circuit_with_UDP_02467 t_Prob_3_34 t_Fig_3_20a_gates t_Fig_3_20a_CA t_Prob_3_39 t_Circuit_A Use_Circuit_A t_Half_Adder t_Full_Adder t_Quiz1_A t_Quiz1_B t_Decoder_3X8 t_Quiz3_A Comparator1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work CS302_Fall2022 $dsn/src/Comparator2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Comparator2.
+# $root top modules: Circuit_Boolean_CA t_Simple_Circuit t_Simple_Circuit_2 t_Circuit_with_UDP_02467 t_Prob_3_34 t_Fig_3_20a_gates t_Fig_3_20a_CA t_Prob_3_39 t_Circuit_A Use_Circuit_A t_Half_Adder t_Full_Adder t_Quiz1_A t_Quiz1_B t_Decoder_3X8 t_Quiz3_A Comparator1 Comparator2.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work CS302_Fall2022 $dsn/src/Four_bits_incrementer.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Warning: VCP2515 Four_bits_incrementer.v : (8, 29): Undefined module: half_adder was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Four_bits_incrementer.
+# $root top modules: Circuit_Boolean_CA t_Simple_Circuit t_Simple_Circuit_2 t_Circuit_with_UDP_02467 t_Prob_3_34 t_Fig_3_20a_gates t_Fig_3_20a_CA t_Prob_3_39 t_Circuit_A Use_Circuit_A t_Half_Adder t_Full_Adder t_Quiz1_A t_Quiz1_B t_Decoder_3X8 t_Quiz3_A Comparator1 Comparator2 Four_bits_incrementer.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work CS302_Fall2022 $dsn/src/Four_bits_incrementer.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Warning: VCP2515 Four_bits_incrementer.v : (8, 29): Undefined module: half_adder was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Four_bits_incrementer.
+# $root top modules: Circuit_Boolean_CA t_Simple_Circuit t_Simple_Circuit_2 t_Circuit_with_UDP_02467 t_Prob_3_34 t_Fig_3_20a_gates t_Fig_3_20a_CA t_Prob_3_39 t_Circuit_A Use_Circuit_A t_Half_Adder t_Full_Adder t_Quiz1_A t_Quiz1_B t_Decoder_3X8 t_Quiz3_A Comparator1 Comparator2 Four_bits_incrementer.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the

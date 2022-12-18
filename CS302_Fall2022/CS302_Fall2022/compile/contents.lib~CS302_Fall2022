@@ -1,4 +1,4 @@
-119
+123
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 1 "../src/Circuit_A.bde" 0 Circuit_A
@@ -19,6 +19,8 @@
 ~A 1 "../src/Fig_3_20a_CA.v" 1 Fig_3_20a_CA
 ~M 1 "../src/Fig_3_20a_gates.v" 1 Fig_3_20a_gates
 ~A 1 "../src/Fig_3_20a_gates.v" 1 Fig_3_20a_gates
+~M 3 "../src/Four_bits_incrementer.v" 1 Four_bits_incrementer
+~A 1 "../src/Four_bits_incrementer.v" 1 Four_bits_incrementer
 ~M 3 "../src/Full_Adder.bde" 0 Full_Adder
 ~A 1 "./../compile/Full_Adder.v" 30 Full_Adder
 ~M 3 "../src/Full_Adder_2.v" 13 Full_Adder_2
@@ -45,6 +47,8 @@
 ~A 1 "../src/UDP_02467.v" 2 UDP_02467
 ~M 3 "../src/Use_Circuit_A.bde" 11 Use_Circuit_A
 ~A 1 "./../compile/Use_Circuit_A.v" 30 Use_Circuit_A
+~M 1 "../src/half_adder.v" 1 half_adder
+~A 1 "../src/half_adder.v" 1 half_adder
 ~M 3 "../src/t_Circuit_A.v" 4 t_Circuit_A
 ~A 1 "../src/t_Circuit_A.v" 4 t_Circuit_A
 ~M 3 "../src/t_Circuit_with_UDP_02467.v" 4 t_Circuit_with_UDP_02467

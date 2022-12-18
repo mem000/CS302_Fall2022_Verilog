@@ -52,6 +52,8 @@ FAMILY=
 /t_Quiz3_A.v=-1
 /Comparator1.v=-1
 /Comparator2.v=-1
+/Four_bits_incrementer.v=-1
+/half_adder.v=-1
 [Files.Data]
 .\src\Simple_Circuit.v=Verilog Source Code
 .\src\Simple_Circuit_2.v=Verilog Source Code
@@ -88,6 +90,8 @@ FAMILY=
 .\src\t_Quiz3_A.v=Verilog Source Code
 .\src\Comparator1.v=Verilog Source Code
 .\src\Comparator2.v=Verilog Source Code
+.\src\Four_bits_incrementer.v=Verilog Source Code
+.\src\half_adder.v=Verilog Source Code
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
