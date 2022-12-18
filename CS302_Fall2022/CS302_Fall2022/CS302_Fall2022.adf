@@ -1,0 +1,102 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=CS302_Fall2022
+[Library]
+CS302_Fall2022=.\CS302_Fall2022\CS302_Fall2022.lib
+[$LibMap$]
+CS302_Fall2022=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Simple_Circuit.v=-1
+/Simple_Circuit_2.v=-1
+/Circuit_Boolean_CA.v=-1
+/UDP_02467.v=-1
+/t_Simple_Circuit.v=-1
+/t_Simple_Circuit_2.v=-1
+/t_Circuit_with_UDP_02467.v=-1
+/Prob_3_34.v=-1
+/t_Prob_3_34.v=-1
+/Fig_3_20a_gates.v=-1
+/t_Fig_3_20a_gates.v=-1
+/Fig_3_20a_CA.v=-1
+/t_Fig_3_20a_CA.v=-1
+/Prob_3_39.v=-1
+/t_Prob_3_39.v=-1
+/Circuit_A.bde=-1
+/t_Circuit_A.v=-1
+/Circuit_A_2.v=-1
+/Use_Circuit_A.bde=-1
+/Half_Adder.bde=-1
+/t_Half_Adder.v=-1
+/Full_Adder.bde=-1
+/t_Full_Adder.v=-1
+/Half_Adder_2.v=-1
+/Full_Adder_2.v=-1
+/Quiz1_A.v=-1
+/t_Quiz1_A.v=-1
+/Quiz1_B.v=-1
+/t_Quiz1_B.v=-1
+/Decoder_3X8.v=-1
+/t_Decoder_3X8.v=-1
+/Quiz3_A.v=-1
+/t_Quiz3_A.v=-1
+/Comparator1.v=-1
+/Comparator2.v=-1
+[Files.Data]
+.\src\Simple_Circuit.v=Verilog Source Code
+.\src\Simple_Circuit_2.v=Verilog Source Code
+.\src\Circuit_Boolean_CA.v=Verilog Source Code
+.\src\UDP_02467.v=Verilog Source Code
+.\src\t_Simple_Circuit.v=Verilog Source Code
+.\src\t_Simple_Circuit_2.v=Verilog Source Code
+.\src\t_Circuit_with_UDP_02467.v=Verilog Source Code
+.\src\Prob_3_34.v=Verilog Source Code
+.\src\t_Prob_3_34.v=Verilog Source Code
+.\src\Fig_3_20a_gates.v=Verilog Source Code
+.\src\t_Fig_3_20a_gates.v=Verilog Source Code
+.\src\Fig_3_20a_CA.v=Verilog Source Code
+.\src\t_Fig_3_20a_CA.v=Verilog Source Code
+.\src\Prob_3_39.v=Verilog Source Code
+.\src\t_Prob_3_39.v=Verilog Source Code
+.\src\Circuit_A.bde=Block Diagram
+.\src\t_Circuit_A.v=Verilog Source Code
+.\src\Circuit_A_2.v=Verilog Source Code
+.\src\Use_Circuit_A.bde=Block Diagram
+.\src\Half_Adder.bde=Block Diagram
+.\src\t_Half_Adder.v=Verilog Source Code
+.\src\Full_Adder.bde=Block Diagram
+.\src\t_Full_Adder.v=Verilog Source Code
+.\src\Half_Adder_2.v=Verilog Source Code
+.\src\Full_Adder_2.v=Verilog Source Code
+.\src\Quiz1_A.v=Verilog Source Code
+.\src\t_Quiz1_A.v=Verilog Source Code
+.\src\Quiz1_B.v=Verilog Source Code
+.\src\t_Quiz1_B.v=Verilog Source Code
+.\src\Decoder_3X8.v=Verilog Source Code
+.\src\t_Decoder_3X8.v=Verilog Source Code
+.\src\Quiz3_A.v=Verilog Source Code
+.\src\t_Quiz3_A.v=Verilog Source Code
+.\src\Comparator1.v=Verilog Source Code
+.\src\Comparator2.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[file_out:/Circuit_A.bde]
+/..\compile\Circuit_A.v=-1
+[file_out:/Use_Circuit_A.bde]
+/..\compile\Use_Circuit_A.v=-1
+[file_out:/Half_Adder.bde]
+/..\compile\Half_Adder.v=-1
+[file_out:/Full_Adder.bde]
+/..\compile\Full_Adder.v=-1
